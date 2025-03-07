@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sección sobre nosotros */
+.about-us {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ff4c4c, #ff8c00); /* Rojo y naranja */
+    color: white;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.about-container h1 span {
+    color: #ffeb3b; /* Amarillo */
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about-container h2 span {
+    color: #ffeb3b; /* Amarillo */
+}
+
+.about-container .intro-text {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+
+/* Contenedor de la imagen ajustado */
+.about-container .image-container {
+    display: inline-block; /* Hace que el contenedor tenga el tamaño de la imagen */
+    max-width: 100%; /* Evita que el contenedor se desborde */
+    text-align: center; /* Centra la imagen en el contenedor */
+}
+
+.about-container .image-container img {
+    width: auto; /* Mantiene el tamaño original de la imagen */
+    height: auto; /* Mantiene las proporciones originales */
+    max-width: 100%; /* Limita el ancho de la imagen al 100% del contenedor */
+    max-height: 400px; /* Limita la altura de la imagen */
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Sección de valores de la empresa */
+.company-values {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.values-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.values-container h2 span {
+    color: #ff4c4c; /* Rojo */
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-item {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.value-item i {
+    font-size: 40px;
+    color: #ff4c4c; /* Rojo */
+    margin-bottom: 20px;
+}
+
+.value-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.value-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Sección de contacto */
+.contact-info {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ff8c00, #ff4c4c); /* Naranja y rojo */
+    color: white;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-container h2 span {
+    color: #ffeb3b; /* Amarillo */
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffeb3b; /* Amarillo */
+    color: #333;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Amarillo más oscuro */
+    transform: scale(1.05);
+}

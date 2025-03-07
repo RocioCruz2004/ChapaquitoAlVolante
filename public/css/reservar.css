@@ -1,0 +1,99 @@
+/* Estilo general para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff4c4c, #ff8c00);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Contenedor de formulario */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Columna de vehículos */
+.vehicle-column {
+    flex: 1;
+    text-align: left;
+}
+
+.vehicle-column select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Imagen del vehículo */
+#vehiculo-seleccionado {
+    margin-top: 10px;
+}
+
+#vehiculo-imagen {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#vehiculo-nombre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Columna de servicios adicionales */
+.service-column {
+    flex: 1;
+    text-align: left;
+}
+
+.service-column input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;  /* Hacer más pequeño el ancho */
+    border-radius: 5px;
+}
+
+/* Total */
+.total-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.total-container input {
+    padding: 15px;
+    font-size: 18px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* Botón de reserva */
+.btn-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e03d3d;
+}
